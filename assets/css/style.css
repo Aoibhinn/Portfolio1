@@ -8,4 +8,19 @@
 body{
     font-family: roboto, sans-serif;
     font-weight: 300;
+    color: #303179;
+}
+
+/*headings and logo*/
+
+h1, h2{
+    font-family: open-sans, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #4D009B;
+}
+
+#logo{
+    float: left;
+    font-size: 280%;
 }
