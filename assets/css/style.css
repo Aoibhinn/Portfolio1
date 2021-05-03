@@ -100,3 +100,11 @@ h1, h2{
     background-color: pink;
     
 }
+
+#left-techniques-heading{ 
+    width: 85%;
+    float: right;
+    line-height: 30px;
+    clear: both;
+    margin-bottom: 50px;
+}
