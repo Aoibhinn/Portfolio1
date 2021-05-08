@@ -16,8 +16,9 @@ body{
 h1, h2{
     font-family: open-sans, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #094266; 
+    font-size: 150%;
 }
 
 #logo{
@@ -78,36 +79,49 @@ h1, h2{
 
 #techniques {
     height: 600px;
+    width: 100%;
 }
 
 #welcome-techniques{
     text-align: center;
+    padding-bottom: 50px;
 }
 
 #left-techniques-cover{
-    width: 100px;
-    height: 100px;
-    padding: 30px;
+    width: 300px;
+    height: 150px;
     border-style: solid;
-    border-color: #083F62;
+    border-color: #fff;
     border-width: 1px;
-    border-radius: 50%;
     margin: 0 auto;
 }
 
 #left-techniques-bg {
-    background: url("../images/Untitled\ design\ \(2\).png") no-repeat center center;
+    background: url("../images/mediation.png") no-repeat center center;
     height: 100%;
 }
 
 #left-techniques { 
-    padding-top: 30p;
+    padding-top: 30px;
+    padding-left: 5px;
     width: 33%;
     float: left;
     
 }
 
+#right-techniques-cover{
+    width: 300px;
+    height: 150px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
+    margin: 0 auto;
+}
 
+#right-techniques-bg {
+    background: url("../images/mindfulness.png") no-repeat center center;
+    height: 100%;
+}
 
 #right-techniques { 
     padding-top: 30p;
@@ -116,12 +130,20 @@ h1, h2{
    
 }
 
-#center-techniques { 
-    width: 33%;
+#center-techniques-cover{
+    width: 300px;
+    height: 150px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1px;
     margin: 0 auto;
-  
-    
 }
+
+#center-techniques-bg {
+    background: url("../images/yoga.png") no-repeat center center;
+    height: 100%;
+}
+
 
 hr{
     border-top: 1px solid #083F62;
@@ -132,29 +154,31 @@ hr{
 
 #left-techniques-heading{ 
     width: 85%;
-    float: right;
-    line-height: 25px;
-    clear: both;
+    line-height: 22px;
     margin-bottom: 50px;
     margin-top: 50px;
-    margin-right: 30px;
+    margin-left: 82px;
+    display: inline-block;
+    width: 340px;
     
 }
 
 #right-techniques-heading{ 
     width: 85%;
-    float: left;
-    line-height: 25px;
-    clear: both;
+    line-height: 22px;
     margin-bottom: 50px;
-    margin-top: 50px;
-    margin-left: 30px;
+    margin-top: 70px;
+    margin-right: 82px;
+    display: inline-block;
+    width: 340px;
 }
 
 #center-techniques-heading{ 
-    width: 85%;
-    line-height: 25px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    margin-left: 30px;
+    display: inline-block;
+    width: 340px;
+    margin-top: 70px;
+    margin-left: 70px;
+    
 }
+
+
