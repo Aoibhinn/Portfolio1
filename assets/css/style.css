@@ -213,3 +213,27 @@ hr{
     padding-bottom: 40px;
 
 }
+
+.sign-up-now{
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #fff;
+    color: #083F62;
+    display: block;
+    margin-left: 40%;
+}
+
+.sign-up-now:hover{
+    background-color: #fafafa;
+    color: #9ACD32;
+}
+
+/*sign up redirect image*/
+#sign-up-image{
+    background: url("../images/yoga\ class.png") no-repeat center center;
+    height: 100%;
+    
+}
