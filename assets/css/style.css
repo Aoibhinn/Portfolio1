@@ -185,11 +185,11 @@ hr{
 
 #lessons{ 
 
-    background-color:#083F62; 
+    background-color: #083F62;
     width: 50%;
-    height: 500px;
+    height: 550px;
     float: left;
-    padding: 30px 0 0 10px;
+    padding: 1px 0 0 10px;
     text-align: center;
 }
 
@@ -226,16 +226,21 @@ hr{
     margin-left: 40%;
 }
 
-.sign-up-now:hover{
-    background-color: #fafafa;
-    color: #9ACD32;
+#sign-up-image{
+    background: url(../images/class.png) no-repeat center center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    left: 720px;
+    bottom: 410px;
 }
 
-/*sign up redirect image*/
-#sign-up-image{
-    background: url("../images/yoga\ class.png") no-repeat center center;
-    height: 100%;
+/*footer*/
+
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: #083F62;
     position: relative;
-    left: 900px;
-    bottom: 450px;
+    top: 550px;
 }
