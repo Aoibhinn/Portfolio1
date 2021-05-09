@@ -10,6 +10,7 @@ body{
     font-weight: 300;
     color: #083F62;
     height: 100%;
+    margin-bottom: 150px;
 }
 
 /*headings and logo*/
@@ -234,4 +235,32 @@ hr{
     position: relative;
     left: 720px;
     bottom: 410px;
+}
+
+/*footer*/
+
+footer{
+    position: fixed;
+    height: 150px;
+    background-color: #083F62;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #fff;
 }
