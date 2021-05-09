@@ -9,6 +9,7 @@ body{
     font-family: roboto, sans-serif;
     font-weight: 300;
     color: #083F62;
+    height: 100%;
 }
 
 /*headings and logo*/
@@ -233,14 +234,4 @@ hr{
     position: relative;
     left: 720px;
     bottom: 410px;
-}
-
-/*footer*/
-
-footer{
-    height: 200px;
-    width: 100%;
-    background-color: #083F62;
-    position: relative;
-    top: 550px;
 }
