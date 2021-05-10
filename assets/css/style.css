@@ -15,11 +15,11 @@
    }
 
 .main-container {
-    min-height: 100vh; /* will cover the 100% of viewport */
+    min-height: 100vh; 
     overflow: hidden;
     display: block;
     position: relative;
-    padding-bottom: 100px; /* height of your footer */
+    padding-bottom: 100px; 
    }
 
 body {
@@ -260,17 +260,11 @@ hr {
 /*footer*/
 
 footer {
-    /* position: absolute; */
     height: 150px;
     background-color: #083F62;
-    /* bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px; */
     position: absolute;
     bottom: 0;
     width: 100%;
-
 }
 
 .social-networks {
