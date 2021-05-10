@@ -345,6 +345,34 @@ footer {
     
 }
 
+/*Mindfulness page*/
+
+#mindfulness-outer{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#mindfulness-def{
+    height: 550px;
+    width: 100%;
+    background-color: #083F62;
+    color: #fff;
+}
+
+#mindfulness-def > h2{
+    color: #fff;
+    padding: 250px 200px 50px;
+    position: absolute;
+    
+}
+
+#mindfulness-def > p{
+    margin-left: 50%;
+    top: 220px;
+    position: relative;
+    padding-right: 100px;
+}
 
 
    
