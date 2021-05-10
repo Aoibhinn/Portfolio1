@@ -324,6 +324,27 @@ footer {
 
 }
 
+.text-input:hover {
+    border-color: #083F62;
+}
+
+.join-button{
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #9ACD32;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover{
+    background-color: #fafafa;
+    color: #083F62;
+    
+}
+
 
 
    
