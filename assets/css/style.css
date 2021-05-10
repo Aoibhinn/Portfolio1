@@ -293,18 +293,19 @@ footer {
 }
 
 .signup-form{ 
-        margin: 100px 50px 75px;
-        padding: 100px 200px 100px 20px;
+        margin: 150px 0 0;
+        padding: 50px 30px 50px 30px;
         color: #fff;
         background-color: rgba(60, 60, 60, 0.6);
         position: absolute;
         left: 10%;
+        border-radius: 4px;
 }
 
 .text-input{
     background: transparent;
     color: #fafafa;
-    width: 100%;
+    width: 50%;
     height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
@@ -312,6 +313,16 @@ footer {
     
 }
 
+.signup-form > p{
+    color: #fff;
+    size: 20px;
+
+}
+
+.signup-form > h2{
+    color: #fff;
+
+}
 
 
 
