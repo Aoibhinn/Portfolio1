@@ -1,29 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
-body{
+
+* {
+    box-sizing: border-box;
+   }
+   *:before,
+   *:after {
+    box-sizing: border-box;
+   }
+
+.main-container {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of your footer */
+   }
+
+body {
     font-family: roboto, sans-serif;
     font-weight: 300;
     color: #083F62;
-    height: 100%;
     margin-bottom: 150px;
+    height: 100%;
+    position: relative;
 }
 
 /*headings and logo*/
 
-h1, h2{
+h1,
+h2 {
     font-family: open-sans, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #094266; 
+    color: #094266;
     font-size: 150%;
 }
 
-#logo{
+#logo {
     float: left;
     font-size: 280%;
     padding-left: 30px;
@@ -38,16 +57,17 @@ h1, h2{
 
 }
 
-#menu, #logo{
+#menu,
+#logo {
     line-height: 75px;
 }
 
 
-#menu li{
+#menu li {
     display: inline-block;
     list-style-type: none;
     margin-right: 30px;
-    
+
 }
 
 #menu a {
@@ -59,13 +79,13 @@ h1, h2{
     border-bottom: 1px solid #083F62;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #083F62;
 }
 
 /*hero image*/
 
-#hero-outer{
+#hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -84,12 +104,12 @@ h1, h2{
     width: 100%;
 }
 
-#welcome-techniques{
+#welcome-techniques {
     text-align: center;
     padding-bottom: 50px;
 }
 
-#left-techniques-cover{
+#left-techniques-cover {
     width: 300px;
     height: 150px;
     border-style: solid;
@@ -103,15 +123,15 @@ h1, h2{
     height: 100%;
 }
 
-#left-techniques { 
+#left-techniques {
     padding-top: 30px;
     padding-left: 5px;
     width: 33%;
     float: left;
-    
+
 }
 
-#right-techniques-cover{
+#right-techniques-cover {
     width: 300px;
     height: 150px;
     border-style: solid;
@@ -125,14 +145,14 @@ h1, h2{
     height: 100%;
 }
 
-#right-techniques { 
+#right-techniques {
     padding-top: 30p;
     width: 33%;
     float: right;
-   
+
 }
 
-#center-techniques-cover{
+#center-techniques-cover {
     width: 300px;
     height: 150px;
     border-style: solid;
@@ -147,14 +167,14 @@ h1, h2{
 }
 
 
-hr{
+hr {
     border-top: 1px solid #083F62;
     width: 50%;
     margin: 5px;
 }
 
 
-#left-techniques-heading{ 
+#left-techniques-heading {
     width: 85%;
     line-height: 22px;
     margin-bottom: 50px;
@@ -162,10 +182,10 @@ hr{
     margin-left: 82px;
     display: inline-block;
     width: 340px;
-    
+
 }
 
-#right-techniques-heading{ 
+#right-techniques-heading {
     width: 85%;
     line-height: 22px;
     margin-bottom: 50px;
@@ -175,40 +195,40 @@ hr{
     width: 340px;
 }
 
-#center-techniques-heading{ 
+#center-techniques-heading {
     display: inline-block;
     width: 340px;
     margin-top: 70px;
     margin-left: 70px;
-    
+
 }
 
 /* Book online lessons */
 
-#lessons{ 
+#lessons {
 
     background-color: #083F62;
     width: 50%;
     height: 550px;
-    float: left;
     padding: 1px 0 0 10px;
     text-align: center;
+    display: inline-block;
 }
 
 
-#sign-up{
+#sign-up {
     color: #fff;
     padding-top: 200px;
     line-height: 30px;
     letter-spacing: 1px;
 }
 
-#sign-up h2{
+#sign-up h2 {
     color: #fff;
 
 }
 
-#lessons hr{
+#lessons hr {
     border-top: 1px solid #fff;
     width: 70%;
     margin-left: 110px;
@@ -216,7 +236,7 @@ hr{
 
 }
 
-.sign-up-now{
+.sign-up-now {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
@@ -228,7 +248,7 @@ hr{
     margin-left: 40%;
 }
 
-#sign-up-image{
+#sign-up-image {
     background: url(../images/class.png) no-repeat center center;
     height: 100%;
     width: 100%;
@@ -239,22 +259,25 @@ hr{
 
 /*footer*/
 
-footer{
-    position: fixed;
+footer {
+    /* position: absolute; */
     height: 150px;
     background-color: #083F62;
-    bottom: 0px;
+    /* bottom: 0px;
     left: 0px;
     right: 0px;
-    margin-bottom: 0px;
-    
+    margin-bottom: 0px; */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
 }
 
-.social-networks{
+.social-networks {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
