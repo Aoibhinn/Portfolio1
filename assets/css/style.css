@@ -406,11 +406,22 @@ footer {
 }
 
 #youtube-heading-two{
-    right: 60%;
-    top: 190px;
-    margin-left: 100px;
+    padding: 90px;
+    position: absolute;
+    bottom: 420px;
     display: inline-block;
-    width: 45%;
+    width: 57%;
   
+}
+
+#practice-youtube{
+    position: relative;
+    left: 50%;
+    top: 100px;
+    margin-left: 80px;
+    display: inline-block;
+    width: 50%;
+
+
 }
 
