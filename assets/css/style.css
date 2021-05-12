@@ -375,5 +375,22 @@ footer {
 }
 
 
-   
+#mindfulness-youtube{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    padding: 100px;
+    position: absolute;
+}
 
+#youtube-heading {
+   position: relative;
+   left: 50%;
+   top: 190px;
+   
+    /* margin-bottom: 50px;
+    margin-top: 50px; */
+    margin-left: 25px;
+    display: inline-block;
+    width: 50%;
+}
