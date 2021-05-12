@@ -374,6 +374,12 @@ footer {
     padding-right: 100px;
 }
 
+/*Mindfulness youtube video 1 */
+
+#video-one {
+    width: 100%;
+    height: 500px;
+}
 
 #mindfulness-youtube{
     display: flex;
@@ -387,10 +393,24 @@ footer {
    position: relative;
    left: 50%;
    top: 190px;
-   
-    /* margin-bottom: 50px;
-    margin-top: 50px; */
     margin-left: 25px;
     display: inline-block;
     width: 50%;
 }
+
+/*Mindfulness youtube video 2 */
+
+#video-two{
+    width: 100%;
+    height: 500px;
+}
+
+#youtube-heading-two{
+    right: 60%;
+    top: 190px;
+    margin-left: 100px;
+    display: inline-block;
+    width: 45%;
+  
+}
+
