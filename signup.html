@@ -13,79 +13,78 @@
 </head>
 
 <body>
- <div class=”main-container”>
-    <head>
-        <a href="index.html">
-            <h1 id="logo">MYM</h1>
-        </a>
+    <div class=”main-container”>
+        <head>
+            <a href="index.html">
+                <h1 id="logo">MYM</h1>
+            </a>
 
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="mindfulness.html">Mindfulness</a>
-                </li>
-                <li>
-                    <a href="signup.html" class="active">Sign Up</a>
-                </li>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="mindfulness.html">Mindfulness</a>
+                    </li>
+                    <li>
+                        <a href="signup.html" class="active">Sign Up</a>
+                    </li>
+                </ul>
+            </nav>
+        </head>
+
+        <section class="form-section">
+            <form method="POST" action="#" class="signup-form">
+                <h2>Join us for our online yoga classes</h2><br>
+                <p>Our classes are for all levels of experience <br>Class is every Tuesday 7pm to 8pm <br>Please provide your contact
+                    details below and we will email you an invite link to join</p><br>
+                </p>
+
+                <label for="fname">First Name:</label><br>
+                <input class="text-input" id="fname" name="first_name" type="text" required><br>
+
+                <label for="lname">Last Name:</label><br>
+                <input class="text-input" id="lname" name="last_name" type="text" required><br>
+                    
+                <label for="email">Email Address:</label><br>
+                <input class="text-input" type="email" id="email" name="email_address" required><br>
+
+                <p>Please select what level of experince best suits you:</p><br>
+
+                <label for="beginner">Beginner</label>
+                <input type="radio" id="beginner" name="competency" value="beginner" required>
+
+                <label for="intermediate">Intermediate</label>
+                <input type="radio" id="intermediate" name="competency" value="intermediate" required>
+
+                <label for="advanced">Advanced</label>
+                <input type="radio" id="advanced" name="competency" value="advanced" required>
+
+                <input class="join-button" type="submit" value="Sign Me Up!">
+            </form>   
+        </section>
+
+        <footer>
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+                <li><a href="mindfulness.html">Mindfulness</a></li>
             </ul>
-        </nav>
-    </head>
 
-    <section class="form-section">
-        <form method="POST" action="#" class="signup-form">
-            <h2>Join us for our online yoga classes</h2><br>
-            <p>Our classes are for all levels of experience <br>Class is every Tuesday 7pm to 8pm <br>Please provide your contact
-                details below and we will email you an invite link to join</p><br>
-            </p>
+            <ul class="social-icons">
+                <li><a class="facebook" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="instagram" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="youtube" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>   
+            </ul>
+        </footer>
+        
 
-            <label for="fname">First Name:</label><br>
-            <input class="text-input" id="fname" name="first_name" type="text" required><br>
 
-            <label for="lname">Last Name:</label><br>
-            <input class="text-input" id="lname" name="last_name" type="text" required><br>
-                
-            <label for="email">Email Address:</label><br>
-            <input class="text-input" type="email" id="email" name="email_address" required><br>
-
-            <p>Please select what level of experince best suits you:</p><br>
-
-            <label for="beginner">Beginner</label>
-            <input type="radio" id="beginner" name="competency" value="beginner" required>
-
-            <label for="intermediate">Intermediate</label>
-            <input type="radio" id="intermediate" name="competency" value="intermediate" required>
-
-            <label for="advanced">Advanced</label>
-            <input type="radio" id="advanced" name="competency" value="advanced" required>
-
-            <input class="join-button" type="submit" value="Sign Me Up!">
-        </form>   
-    </section>
-
-    <footer>
-        <ul class="social-networks">
-            <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page(opens 
-                in a new tab)"> <i class="fab fa-facebook"></i> </a>
-            </li>
-            <li> <a href="http://twitter.com" target="_blank" rel="noopener" aria-label="Vist our twitter page 
-                (opens in a new link"> <i class="fab fa-twitter"></i> </a>
-            </li>
-            <li> <a href="http://youtube.com" target="_blank" rel="noopener" aria-label="Vist our youtube page 
-                (opens in a new link"> <i class="fab fa-youtube"></i> </a>
-            </li>
-            <li> <a href="http://instagram.com" target="_blank" rel="noopener" aria-label="Vist our instagram page 
-                (opens in a new link"> <i class="fab fa-instagram"></i> </a>
-            </li>
-        </ul>
-    </footer>
-    <!--Font awesome script-->
-    <script src="https://kit.fontawesome.com/cf0c5abcb6.js" crossorigin="anonymous"></script>
-    
-</div>
+        <!--Font awesome script-->
+        <script src="https://kit.fontawesome.com/cf0c5abcb6.js" crossorigin="anonymous"></script>
+    </div>
 
 </body>
 
