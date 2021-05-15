@@ -425,3 +425,29 @@ footer {
 
 }
 
+/*Mindfulness tips*/
+
+#mindfulness-tips{
+    height: 600px;
+}
+
+#left-tips {
+    padding-top: 30px;
+    width: 30%;
+    float: left;
+}
+
+#right-tips {
+    padding-top: 30px;
+    width: 30%;
+    float: right;
+}
+
+#center-tips{
+    width: 33%;
+    margin: 0 auto;
+}
+
+
+
+
