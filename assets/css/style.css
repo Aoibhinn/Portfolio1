@@ -448,6 +448,18 @@ footer {
     margin: 0 auto;
 }
 
+hr{
+    width: 100%;
+    margin-left: 0px;
+    border-bottom: 1px solid #083F62;
+}
 
+.left-tips-heading{
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
 
 
