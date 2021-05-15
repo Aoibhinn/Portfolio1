@@ -462,4 +462,21 @@ hr{
     margin-bottom: 50px;
 }
 
+.right-tips-heading{
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-tips-heading h3{
+    text-align: right;
+}
+
+.right-tips-heading p{
+    text-align: right;
+}
+
+
 
