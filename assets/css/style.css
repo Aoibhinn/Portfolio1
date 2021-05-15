@@ -502,3 +502,14 @@ hr{
     height: 100%;
     border-radius: 50%;
 }
+
+/*blogs*/
+
+#blogs{
+    background: url(../images/blogs.png) no-repeat center center;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
