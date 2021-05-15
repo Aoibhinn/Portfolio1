@@ -247,6 +247,13 @@ hr {
     margin-left: 40%;
 }
 
+.sign-up-now:hover{
+    background-color: #fafafa;
+    color: #9ACD32;
+    
+}
+
+
 #sign-up-image {
     background: url(../images/class.png) no-repeat center center;
     height: 100%;
@@ -255,6 +262,48 @@ hr {
     left: 720px;
     bottom: 410px;
 }
+
+/*footer*/
+
+footer{
+    height: 100px;
+}
+
+
+.footer-links{
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-links > li{
+    display: inline;
+}
+
+.footer-links a{
+    font-size: 100%;
+    margin: 1%;
+    padding: 3%;
+    color: #083F62;
+    text-decoration: none;
+}
+
+.social-icons{
+    text-align: center;
+    padding: 30px;
+}
+
+.social-icons > li{
+    display: inline;
+}
+
+.social-icons a{
+    font-size: 160%;
+    margin: 1%;
+    padding: 3%;
+    color: #083F62;
+    text-decoration: none;
+}
+
 
 /*form*/
 
