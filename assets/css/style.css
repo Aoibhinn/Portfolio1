@@ -427,19 +427,25 @@ footer {
 
 /*Mindfulness tips*/
 
+#awesome-tips{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 200%;
+}
+
 #mindfulness-tips{
     height: 600px;
 }
 
 #left-tips {
     padding-top: 30px;
-    width: 30%;
+    width: 33%;
     float: left;
 }
 
 #right-tips {
     padding-top: 30px;
-    width: 30%;
+    width: 33%;
     float: right;
 }
 
@@ -478,5 +484,21 @@ hr{
     text-align: right;
 }
 
+#tips-container{
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #083F62;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
 
-
+#tips-cover-bg{
+    background: url(../images/bgmindfulness.png) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
