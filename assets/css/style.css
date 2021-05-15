@@ -210,7 +210,6 @@ hr {
     background-color: #083F62;
     width: 50%;
     height: 550px;
-    padding: 1px 0 0 10px;
     text-align: center;
     display: inline-block;
 }
@@ -255,31 +254,6 @@ hr {
     position: relative;
     left: 720px;
     bottom: 410px;
-}
-
-/*footer*/
-
-footer {
-    height: 150px;
-    background-color: #083F62;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks>li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #fff;
 }
 
 /*form*/
@@ -356,7 +330,7 @@ footer {
 #mindfulness-def{
     height: 550px;
     width: 100%;
-    background-color: #083F62;
+    background: url(../images/definitionmindful.png) no-repeat center center;
     color: #fff;
 }
 
@@ -364,6 +338,9 @@ footer {
     color: #fff;
     padding: 250px 200px 50px;
     position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 550px;
     
 }
 
@@ -398,21 +375,6 @@ footer {
     width: 50%;
 }
 
-/*Mindfulness youtube video 2 */
-
-#video-two{
-    width: 100%;
-    height: 500px;
-}
-
-#youtube-heading-two{
-    padding: 90px;
-    position: absolute;
-    bottom: 420px;
-    display: inline-block;
-    width: 57%;
-  
-}
 
 #practice-youtube{
     position: relative;
