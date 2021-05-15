@@ -513,3 +513,19 @@ hr{
     width: 100%;
     overflow: hidden;
 }
+
+#blogs div{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 25%;
+    height: 400px;
+    float: left;
+}
+
+#blogs a {
+    color: #fff;
+    text-align: center;
+}
+
+#blogs h2{
+    color: #fff;
+}
