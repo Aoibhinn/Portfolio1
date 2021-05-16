@@ -148,7 +148,7 @@ h2 {
 }
 
 #left-techniques {
-    padding-top: 30px;
+    padding-bottom: 20px;
     padding-left: 5px;
     width: 33%;
     float: left;
@@ -176,7 +176,7 @@ h2 {
 
 }
 
-#center-techniques-cover {
+#center-techniques-cover{
     width: 300px;
     height: 150px;
     border-style: solid;
@@ -638,3 +638,47 @@ hr{
   }
 
   
+  /*media queries*/
+
+  @media screen and (max-width:1200px) {
+    #techniques {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome-techniques{
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-techniques, #right-techniques{
+        width: 100%;
+        float: left;
+        padding: 20px;
+
+    }
+
+    #center-techniques-heading{
+        width: 70%;
+        float: left;
+        padding: 170px 0 30px 110px;
+
+
+    }
+
+    #center-techniques-cover, #center-techniques-bg{
+        width: 100%;
+        float: left;
+        padding-top: 230px;
+        padding-left: 20px;
+
+    }
+
+    #left-techniques-heading{
+        padding-left: 80px;
+        width: 65%;
+    }
+
+    
+  }
