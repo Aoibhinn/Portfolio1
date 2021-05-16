@@ -68,11 +68,22 @@ src
 
 
 
-
 Further Testing
 The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 A large amount of testing was done to ensure that all pages were linking correctly.
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+GitHub Pages
+The project was deployed to GitHub Pages using the following steps...
+
+Log in to GitHub and locate the GitHub Repository
+At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
+Scroll down the Settings page until you locate the "GitHub Pages" Section.
+Under "Source", click the dropdown called "None" and select "Master Branch".
+The page will automatically refresh.
+Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
 
 Credits
 
