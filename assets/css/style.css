@@ -328,6 +328,40 @@ footer{
     text-decoration: none;
 }
 
+/*Four types of meditation*/
+
+#types-of-meditation{
+    height: 100px;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+ 
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 50px 20px 20px 20px;
+    height: 400px; 
+    color: white;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #types-of-meditation h2 {
+      text-align: center;
+      margin-bottom: 40px;
+  }
+
 
 /*form*/
 
@@ -403,7 +437,7 @@ footer{
 #mindfulness-def{
     height: 550px;
     width: 100%;
-    background: url(../images/definitionmindful.png) no-repeat center center;
+    background: url(../images/meditationpage.png) no-repeat center center;
     color: #fff;
 }
 
@@ -440,12 +474,12 @@ footer{
 }
 
 #youtube-heading {
-   position: relative;
-   left: 50%;
-   top: 190px;
+    position: relative;
+    left: 50%;
+    top: 190px;
     margin-left: 25px;
     display: inline-block;
-    width: 50%;
+    width: 40%;
 }
 
 
@@ -560,71 +594,7 @@ hr{
     padding-top: 30%;
 }
 
-/*Meditation Page Image*/
 
-#meditation-outer{
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-}
-
-#meditation-def{
-    height: 550px;
-    width: 100%;
-    background: url(../images/meditationpage.png) no-repeat center center;
-    color: #fff;
-}
-
-#meditation-def > h2{
-    color: #fff;
-    padding: 250px 200px 50px;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.6);
-    width: 100%;
-    height: 550px;
-    
-}
-
-#meditation-def > p{
-    margin-left: 50%;
-    top: 220px;
-    position: relative;
-    padding-right: 100px;
-}
-
-/*Four types of meditation*/
-
-#types-of-meditation{
-    height: 600px;
-    width: 100%;
-}
-
-* {
-    box-sizing: border-box;
-  }
-
- 
-  
-  /* Create four equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 25%;
-    padding: 50px 20px 20px 20px;
-    height: 400px; 
-    color: white;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  #types-of-meditation h2 {
-      text-align: center;
-      margin-bottom: 40px;
-  }
 
   
   /*media queries max-width 1200px*/
@@ -700,6 +670,17 @@ hr{
         margin-left: 55%;
         padding-right: 30px;
     }
+
+    .column{
+        width: 100%;
+        clear: both;
+        height: 250px;
+    }
+
+    #types-of-meditation h2 {
+        text-align: center;
+        margin-top: 150px;
+    }
    
 
   }
@@ -754,6 +735,20 @@ hr{
     .sign-up-now{
         margin-left: 35%;
     }
+
+    #blogs > div {
+        width: 100%;
+        clear: both;
+        height: 100px;
+    }
+
+    #blogs h2{
+         padding-top: 0;
+        
+    }
+
+    
+
 
 
 
@@ -824,30 +819,8 @@ hr{
         padding: 0 20px;
     }
 
-    #blogs > div {
-        width: 100%;
-        clear: both;
-        height: 100px;
-        padding: 0;
-    }
+   
 
-    #blogs a {
-        width: 100%;
-        clear: both;
-        height: 100px;
-        padding: 0;
-        /* color: #fff;
-        text-align: center;
-        text-decoration: none; */
-    
-    }
-    
-    #blogs h2{
-        color: #fff;
-        padding-top: 30%;
-    }
-
-     
 
 
 
