@@ -789,7 +789,7 @@ hr{
      }
 
      #mindfulness-tips {
-         width: 80%;
+         width: 90%;
          height: 1200px;
          margin: 0 auto;
      }
@@ -800,10 +800,7 @@ hr{
      }
 
      #left-tips, #right-tips {
-         width: 100%;
-         float: left;
-         padding: 0;
-
+         width: inherit;
      }
 
      #center-tips {
@@ -813,9 +810,17 @@ hr{
          padding: 0;
      }
 
-     hr {
-         display: none;
+     .left-tips-heading h3, .right-tips-heading h3{
+         text-align: center;
+         width: 100%;
      }
+
+     .left-tips-heading p, .right-tips-heading p{
+        text-align: center;
+        padding: 0 20px;
+    }
+
+     
 
 
 
