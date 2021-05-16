@@ -700,6 +700,8 @@ hr{
         margin-left: 55%;
         padding-right: 30px;
     }
+   
+
   }
 
 /*media queries max-width 950px*/
@@ -752,6 +754,8 @@ hr{
     .sign-up-now{
         margin-left: 35%;
     }
+
+
 
     /*media queries max-width 950px for mindfulness.html page*/
 
@@ -818,6 +822,29 @@ hr{
      .left-tips-heading p, .right-tips-heading p{
         text-align: center;
         padding: 0 20px;
+    }
+
+    #blogs > div {
+        width: 100%;
+        clear: both;
+        height: 100px;
+        padding: 0;
+    }
+
+    #blogs a {
+        width: 100%;
+        clear: both;
+        height: 100px;
+        padding: 0;
+        /* color: #fff;
+        text-align: center;
+        text-decoration: none; */
+    
+    }
+    
+    #blogs h2{
+        color: #fff;
+        padding-top: 30%;
     }
 
      
