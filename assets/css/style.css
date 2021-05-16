@@ -449,17 +449,6 @@ footer{
 }
 
 
-#practice-youtube{
-    position: relative;
-    left: 50%;
-    top: 100px;
-    margin-left: 80px;
-    display: inline-block;
-    width: 50%;
-
-
-}
-
 /*Mindfulness tips*/
 
 #awesome-tips{
@@ -638,7 +627,7 @@ hr{
   }
 
   
-  /*media queries*/
+  /*media queries max-width 1200px*/
 
   @media screen and (max-width:1200px) {
     #techniques {
@@ -680,5 +669,50 @@ hr{
         width: 65%;
     }
 
+    #sign-up-image {
+        display: none;
+    }
+
+    #lessons{
+        width: 100%;
+    }
+
+    #lessons hr{
+        display: none;
+
+    }
+
+    .sign-up-now{
+        margin-left: 42%;
+    }
+
+    #mindfulness-youtube{
+       padding-left: 20px;
+    }
     
+    #youtube-heading {
+        left: 55%;
+        top: 160px;
+        padding-right: 90px;
+    }
+
+    #mindfulness-def > p{
+        margin-left: 55%;
+        padding-right: 30px;
+    }
   }
+
+/*media queries max-width 950px*/
+@media screen and (max-width:950px){
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 32px;
+        margin-bottom: 20px;
+        line-height: 25px;
+        font-size: 15px;
+
+    }
+}
+
+    
