@@ -602,3 +602,28 @@ hr{
     position: relative;
     padding-right: 100px;
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 50px 20px 20px 20px;
+    height: 400px; 
+    color: white;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #types-of-meditation h2 {
+      text-align: center;
+      margin-bottom: 40px;
+  }
