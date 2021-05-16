@@ -713,6 +713,82 @@ hr{
         font-size: 15px;
 
     }
+
+    #techniques {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #left-techniques-heading{
+        margin-left: 0;
+        width: 90%;
+    }
+
+    #right-techniques-heading p{
+       padding: 0;
+       padding-top: 8px;
+    }
+
+    #left-techniques-heading p, #center-techniques-heading p{
+        padding-top: 8px;
+     }
+
+
+    #center-techniques-heading{
+        margin-left: 0;
+        width: 90%;
+    }
+
+    hr{
+        display: none;
+    }
+
+    #center-techniques-cover, #center-techniques-bg{
+        margin-left: 3px;
+
+    }
+
+    .sign-up-now{
+        margin-left: 35%;
+    }
+
+    #mindfulness-youtube{
+       position: relative;
+       width: 100%;
+       padding-bottom: 56.25%;
+       height: 0;
+       
+     }
+     #mindfulness-youtube iframe{
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+     }
+     
+     #youtube-heading {
+         display: none;
+     }
+
+     #mindfulness-def h2{
+         position: absolute;
+         padding-top: 160px;
+         text-align: center;
+     }
+
+     #mindfulness-def > p{
+        position: relative;
+        top: 250px;
+        right: 250px;
+        text-align: center;
+
+        width: 80%;
+    }
+
+    
+
 }
 
     
