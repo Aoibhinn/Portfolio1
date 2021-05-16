@@ -1,52 +1,92 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+This is the completed website for my Mindfulness, Meditation, and Yoga concept website called MYM. It is designed to be responsible, accessible and informative to help users who are beginners in yoga, meditation, and mindfulness become more aware of what each of these have to offer.
 
-Welcome Aoibhinn,
+UI Screenshots: 
+<img src="/workspace/Portfolio1/assets/images/ui_screenshots.png">
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+User Expereince (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+User Stories 
 
-`python3 -m http.server`
+a) As a user, I want to educate myself on how to become more mindful as a beginner.
+b) As a user, I want to join a yoga class and be provided the times of when the class is on.
+c) As a user, I want to learn about different blogs I can read to become more mindful.
+d) As a user, I want to know the different types of meditiations I can do.
 
-A blue button should appear to click: _Make Public_,
+Design
 
-Another blue button should appear to click: _Open Browser_.
+Colour Scheme
+The two main colours used are #083F62 - dark navy and white. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Typography
+The Roboto font is mainly used throughout the website with Sans Serif used as a fallback font incase the font isn't being imported into the site correctly. 
 
-A blue button should appear to click: _Make Public_,
+Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves. While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn’t compromise, allowing letters to be settled into their natural width. This makes for a more natural reading rhythm more commonly found in humanist and serif types.
+ 
 
-Another blue button should appear to click: _Open Browser_.
+Imagery
+The imagery used throughout the site is calm and related to meditation, mindfulness and yoga. Majority of the images have also some relation to nature to give the feeling of calm and relaxtion while users browse the website. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Features
+Responsive on all device sizes
+Interactive elements
 
-To log into the Heroku toolbelt CLI you can use:
+Technologies Used
+Languages Used
+HTML5
+CSS3
 
-`heroku login -i`
+Frameworks, Libraries & Programs Used
 
-If you have Multi-Factor Authentication (MFA) enabled then use the API key that was generated for you at [Heroku](https://dashboard.heroku.com/account) as your password.
-This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+Hover.css:
+Hover.css was used on the Sign Up buttons on the index and sign up pages to highlight they are clickable. 
 
-## Updates Since The Instructional Video
+Google Fonts:
+Google fonts were used to import the 'Roboto' font into the style.css file which is used on all pages throughout the project.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Font Awesome:
+Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Git
+Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+GitHub:
+GitHub is used to store the projects code after being pushed from Git.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Canva 
+Canva was used to resize images and edit photos for the website.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Balsamiq:
+Balsamiq was used to create the wireframes during the design process.
+Link to wireframes: https://balsamiq.cloud/sc45is8/pu1pua8 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Testing
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+src
+<img src="/workspace/Portfolio1/assets/images/Screenshot 2021-05-16 at 20.48.15.png">
+<img src="/workspace/Portfolio1/assets/images/Screenshot 2021-05-16 at 20.49.28.png">
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
----
 
-Happy coding!
+Further Testing
+The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+A large amount of testing was done to ensure that all pages were linking correctly.
+Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+Credits
+
+Media
+The full-screen hero image and images throughout the site came from canva
+
+
+Content
+Youtube Video: Ted Talk given by Dr. Shauna Shapiro 
+4 awesome tips for mindfulness: https://www.nhs.uk/mental-health/self-help/tips-and-support/mindfulness/#:~:text=Mindfulness%20meditation%20involves%20sitting%20silently,the%20mind%20starts%20to%20wander
+Favorite blogs: https://tinybuddha.com/, https://theblissfulmind.com/, https://embracingsimpleblog.com/, https://caitflanders.com/
+Four favorite meditations: https://www.medicalnewstoday.com/articles/320392#types-of-meditation
+
+
+
+Acknowledgements
+Tutor support at Code Institute for their support.
