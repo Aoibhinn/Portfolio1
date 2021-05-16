@@ -172,7 +172,7 @@ h2 {
 }
 
 #right-techniques {
-    padding-top: 30px;
+    padding-top: 6px;
     width: 33%;
     float: right;
 
@@ -203,9 +203,8 @@ hr {
 #left-techniques-heading {
     width: 85%;
     line-height: 22px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    margin-left: 82px;
+    margin-top: 78px;
+    margin-left: 55px;
     display: inline-block;
     width: 340px;
 
