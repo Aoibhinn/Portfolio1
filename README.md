@@ -1,6 +1,6 @@
 <h1 text-align="center">MYM Website</h1>
 
-The MYM websites aim is to provide informative content to people who want to learn more about becoming more mindful in their day to day lives. The website also offers users the opportunity to register for weekly yoga classes where they can select their level of experience and external links to the creator's favourite mindfulness blogs to help the user become emersed in the world of mindfulness. The UI is simple and clean with imagery focusing on a peaceful, nature team to ensure the user experience is relaxed and calm. 
+The MYM websites aim is to provide informative content to people who want to learn more about becoming more mindful in their day to day lives. The website also offers users the opportunity to register for weekly yoga classes where they can select their level of experience and external links to the creator's favourite mindfulness blogs to help the user become emersed in the world of mindfulness. The UI is simple and clean with imagery focusing on a peaceful, nature theme to ensure the user experience is relaxed and calm. 
 
 <h2>UI Screenshots:</h2>
 
