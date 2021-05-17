@@ -66,12 +66,14 @@ No errors were found when passing through the official (Jigsaw) validator
 <h2>HTML</h2>
 No errors were returned when passing through the official W3C validator
 
+<img width="1440" alt="Screenshot 2021-05-16 at 23 34 56" src="https://user-images.githubusercontent.com/24395591/118414934-56f6c400-b69f-11eb-9376-ba23194f8371.png">
+
 <h2>Further Testing</h2>
 
 - A large amount of testing was done to ensure that all pages were linking correctly.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-<img width="1440" alt="Screenshot 2021-05-16 at 23 34 56" src="https://user-images.githubusercontent.com/24395591/118414934-56f6c400-b69f-11eb-9376-ba23194f8371.png">
+
 
 <h2>Deployment</h2>
 
@@ -90,7 +92,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 - 4 awesome tips for mindfulness: https://www.nhs.uk/mental-health/self-help/tips-and-support/mindfulness/#:~:text=Mindfulness%20meditation%20involves%20sitting%20silently,the%20mind%20starts%20to%20wander
 - Favorite blogs: https://tinybuddha.com/, https://theblissfulmind.com/, https://embracingsimpleblog.com/, https://caitflanders.com/
 - Four favorite meditations: https://www.medicalnewstoday.com/articles/320392#types-of-meditation
-- The icons in the footer were taken from https://fontawesome.com/ 
+- The icons in the footerm index.html and mindfulness.html were taken from https://fontawesome.com/ 
 
 <h3>Media</h3>
 - Youtube video: Dr. Shauna Shapiro Ted talks https://www.youtube.com/watch?v=IeblJdB2-Vo 
